@@ -1,8 +1,8 @@
 # Borno-Cloud-Service
 
-#Cloud service for both Client and publisher
+#Cloud service for both Client and publisher, manages all communication. 
 
-Serverless web service in AWS platform, using serverless package for using boilerlates. 
+Serverless Node application in AWS platform, using serverless package for using boilerlates. Amazon DynamoDB, amazon Xray, API gateway, and S3 used for DB, connections and storage. 
 
 #Target
 
@@ -12,7 +12,7 @@ Publisher:
 
 Client:
 1. Can See available books in store, [through the DB], and download them
-2. Download happens after file is encrypted with user secret id.      
+2. Download happens after file is encrypted with user secret id. 
 
 Note: 
 Serverless v: 1.43.0
